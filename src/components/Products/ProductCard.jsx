@@ -6,7 +6,6 @@ const ProductCard = ({ id, title, image }) => {
     const addToCart = ()=>{
         setCount(count)
     }
-        console.log(count);    
   return (
     <div className="border   ouline-none border-transparent ">
       <div className="h-[300px] overflow-hidden">
